@@ -1,10 +1,10 @@
-# Mini-AES 🔐
+# Mini-AES 
 
 Projeto educacional de criptografia implementando uma versão simplificada do Advanced Encryption Standard (AES). 
 
 Enquanto o AES padrão da indústria utiliza blocos de 128 bits para garantir a segurança dos dados, este Mini-AES foi projetado com blocos de **16 bits** (suportando blocos de 2 caracteres). Essa redução intencional permite que a matemática do algoritmo seja estudada de forma visual e didática, sendo ideal para estudantes de cibersegurança e desenvolvedores que desejam entender as entranhas da criptografia.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 O sistema conta com um menu interativo pelo terminal, oferecendo as seguintes operações:
 
@@ -13,10 +13,12 @@ O sistema conta com um menu interativo pelo terminal, oferecendo as seguintes op
 *   **🔓 Decriptação:** Reverte a matriz cifrada para o texto legível através das funções matemáticas inversas (ex: *Inverse ShiftRow*).
 *   **⚔️ Criptoanálise (Força Bruta):** Um script de ataque que explora o baixo espaço de chaves (16 bits) para testar todas as combinações possíveis e quebrar a criptografia em milissegundos, revelando a senha e a mensagem completa.
 
-## 🛠️ Como Executar
+## Como Executar
 
 Certifique-se de ter o Python instalado na sua máquina.
 
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+
+Este projeto tem fins estritamente educacionais e acadêmicos. Devido ao tamanho reduzido da chave (16 bits), a criptografia gerada por este código é extremamente frágil e vulnerável a ataques de força bruta básicos. NÃO utilize este algoritmo para proteger dados sensíveis, senhas ou informações reais.
