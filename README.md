@@ -14,9 +14,13 @@ Enquanto o AES padrão da indústria utiliza blocos de 128 bits para garantir a 
 O sistema conta com um menu interativo pelo terminal, oferecendo as seguintes operações:
 
 \*   \*\*🎓 Tutorial Interativo:\*\* Uma explicação passo a passo das operações internas (Nibbles, \*NibbleSub\*, \*ShiftRow\*, \*MixColumn\* e \*KeyAddition\*).
+
 \*   \*\*🔒 Encriptação (Modo ECB):\*\* Converte palavras e frases longas em matrizes de bits cifrados usando uma chave de 2 caracteres.
+
 \*   \*\*🔓 Decriptação:\*\* Reverte a matriz cifrada para o texto legível através das funções matemáticas inversas (ex: \*Inverse ShiftRow\*).
+
 \*   \*\*⚔️ Criptoanálise (Força Bruta):\*\* Um script de ataque que explora o baixo espaço de chaves (16 bits) para testar todas as combinações possíveis e quebrar a criptografia em milissegundos, revelando a senha e a mensagem completa.
+
 
 \## Como Executar
 
