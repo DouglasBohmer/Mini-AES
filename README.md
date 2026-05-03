@@ -1,6 +1,8 @@
 ⚠️ Aviso Importante
 Este projeto tem fins estritamente educacionais e acadêmicos. Devido ao tamanho reduzido da chave (16 bits), a criptografia gerada por este código é extremamente frágil e vulnerável a ataques de força bruta básicos. NÃO utilize este algoritmo para proteger dados sensíveis, senhas ou informações reais.
 
+
+
 \# Mini-AES 
 
 Projeto educacional de criptografia implementando uma versão simplificada do Advanced Encryption Standard (AES). 
