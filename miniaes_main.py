@@ -14,7 +14,7 @@ def divide_em_blocos(texto):
 
 if __name__ == '__main__':
     # [MARCAÇÃO]
-    starter = input('Bem-vindo ao MTC3 Mini AES. Digite \'T=\' para o tutorial ou \'C\' para rodar o programa:\n').strip()
+    starter = input('Bem-vindo ao Mini AES. Digite \'T=\' para o tutorial ou \'C\' para rodar o programa:\n').strip()
          
     if starter.title() == 'T': 
         print('Vamos comecar o tutorial sobre o miniAES!')
