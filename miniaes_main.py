@@ -16,12 +16,12 @@ if __name__ == '__main__':
     # [MARCAÇÃO]
     starter = input('Bem-vindo ao MTC3 Mini AES. Digite \'T=\' para o tutorial ou \'C\' para rodar o programa:\n').strip()
          
-    if starter.title() == 'Tutorial': 
+    if starter.title() == 'T': 
         print('Vamos comecar o tutorial sobre o miniAES!')
         start()
         
     # [MARCAÇÃO]
-    elif starter.title() == 'Comecar' or starter.title() == 'Começar':
+    elif starter.title() == 'C' or starter.title() == 'c':
         while True:
             print('\n' + '='*40)
             print("MENU DO SISTEMA MINI-AES")
